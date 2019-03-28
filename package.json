@@ -1,8 +1,8 @@
 {
-  "title": "jQuery Schedule",
-  "name": "jquery-schedule",
-  "version": "2.2.0",
-  "description": "A schedule management with jQuery.",
+  "title": "jQs nivo",
+  "name": "jqs-nivo",
+  "version": "0.1",
+  "description": "A schedule management with jQuery. Patch for nivo.",
   "keywords": [
     "schedule",
     "scheduler",
@@ -11,15 +11,10 @@
     "jquery",
     "plugin"
   ],
-  "author": {
-    "name": "Thomas BORUSZEWSKI",
-    "email": "yehzuna@outlook.com"
-  },
-  "homepage": "https://github.com/Yehzuna/jquery-schedule",
   "main": "dist/jquery.schedule.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yehzuna/jquery-schedule.git"
+    "url": "https://github.com/ebertin42/jqs-nivo"
   },
   "bugs": {
     "url": "https://github.com/Yehzuna/jquery-schedule/issues"
