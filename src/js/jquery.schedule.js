@@ -381,6 +381,21 @@
           });
         }
       }
+      
+      if (this.settings.mode === 'check') {
+            var $this = this;
+
+            if (this.settings.periodOptions) {
+                period.click(function (event) {
+                    if (
+                        !$(event.target).hasClass('jqs-period-remove') ||
+                        !$(event.target).hasClass('jqs-period-duplicate')
+                    ) {
+                        $this.settings.onClickPeriod.call(this, event, period, $this.element);
+                    }
+                });
+            }
+        }
 
       this.settings.onAddPeriod.call(this, period, this.element);
 
