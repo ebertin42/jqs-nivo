@@ -224,7 +224,7 @@
       $('<table class="jqs-table"><tr></tr></table>').appendTo($(this.element));
 
       for (var i = 0; i < this.settings.days; i++) {
-        $('<td><div class="jqs-day"></div></td>').
+        $('<td><div class="jqs-day" id=' + i.toString() + ' ></div></td>').
           appendTo($('.jqs-table tr', this.element));
       }
 
