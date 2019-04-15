@@ -319,9 +319,9 @@
 
       // period validation
       if (!this.isValid(period)) {
-        console.error('Invalid period', this.periodInit(position, position + height));
+//         console.error('Invalid period', this.periodInit(position, position + height));
 
-        $(period).remove();
+//         $(period).remove();
 
         return false;
       }
